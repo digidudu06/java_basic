@@ -1,7 +1,10 @@
 package day8;
 import java.util.Scanner;
 import day8.Calc;
-
+import day8.Bmi;
+import day8.MyCalender;
+import day8.GenderChecker;
+import day8.Grade;
 public class Main {
 
 	public static void main(String[] args) {
@@ -23,9 +26,11 @@ public class Main {
 				break;
 			case "2":
 				Bmi bmi = new Bmi();
+				bmi.bf();
 				break;
 			case "3":
 				MyCalender myCalender = new MyCalender();
+				
 				break;
 			case "4": 
 				GenderChecker checker = new GenderChecker();

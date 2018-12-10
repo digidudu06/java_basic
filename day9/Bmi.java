@@ -1,4 +1,4 @@
-package day7;
+package day9;
 import java.util.Scanner;
 public class Bmi {
 	public void bf() {
@@ -10,7 +10,6 @@ public class Bmi {
 		double bmi = 0.0;
 		bmi = w/(h*h*0.0001);
 		System.out.println("BMI : "+bmi);
-		
 		String res = "";
 		if(40<=bmi){
 			res = "고도비만";
@@ -26,6 +25,7 @@ public class Bmi {
 			res = "저체중";
 		}
 		System.out.println(res);
+		
 		
 	}
 

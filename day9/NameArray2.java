@@ -13,10 +13,6 @@ public class NameArray2 {
 		}
 		System.out.println(res);
 	}
-	public static void main(String[] args) {
-		NameArray2 nameArray = new NameArray2();
-		nameArray.test();
-		
-	}
 
 }
+
