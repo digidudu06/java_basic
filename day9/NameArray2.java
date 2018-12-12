@@ -1,7 +1,6 @@
 package day9;
-
 public class NameArray2 {
-	public void test() {
+	public String test() {
 		String[] name = {"홍길동","유관순","이순신"}; //CPU를 자주 가지 않아도 되기 때문에 속도가 빠르다. String만 가능!
 		String res = "";
 		for(int i=0;i<name.length;i++) {
@@ -11,7 +10,7 @@ public class NameArray2 {
 				res += name[i];
 			}
 		}
-		System.out.println(res);
+		return res;
 	}
 
 }

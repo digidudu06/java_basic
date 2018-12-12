@@ -1,12 +1,7 @@
 package day9;
-import java.util.Scanner;
 public class Bmi {
-	public void bf() {
-		Scanner scanner = new Scanner(System.in);
-		System.out.println("몸무게 : ");
-		double w = scanner.nextDouble();
-		System.out.println("키 : ");
-		double h = scanner.nextDouble();
+	public String bf(double w,double h) {
+	
 		double bmi = 0.0;
 		bmi = w/(h*h*0.0001);
 		System.out.println("BMI : "+bmi);
@@ -24,7 +19,7 @@ public class Bmi {
 		}else{
 			res = "저체중";
 		}
-		System.out.println(res);
+		return res;
 		
 		
 	}

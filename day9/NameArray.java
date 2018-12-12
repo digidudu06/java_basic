@@ -1,7 +1,6 @@
 package day9;
-
 public class NameArray {
-	public void test() {
+	public String test() {
 		String[] name = new String[3];
 		name[0] = "홍길동";
 		name[1] = "유관순";
@@ -14,7 +13,7 @@ public class NameArray {
 				res += name[i];
 			}
 		}
-		System.out.println(res);
+		return res;
 	}
 
 }
